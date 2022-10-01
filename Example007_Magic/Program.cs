@@ -22,7 +22,8 @@ int count = 0;
 
 while(count < 10000)
 {
-    int what = new Random().Next(0, 3); //[0,3] 0 1 2
+    int what = new Random().Next(0, 3); /*[0,3] 0 1 2 
+    new Random(). (генератор случайных) Next().(целых цисел)*/
     if (what == 0)
     {
         x = (x + xa) / 2;
@@ -43,5 +44,5 @@ while(count < 10000)
 
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
-    count++;
+    count++; //count = count + 1
 }
