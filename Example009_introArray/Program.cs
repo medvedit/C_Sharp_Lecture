@@ -14,3 +14,4 @@ int result = Max(
             Max(array[6], array[7], array[8])
 );
 Console.WriteLine(result);
+// Решение задачи нахождения максимального числа в массиве из девяти чисел.
