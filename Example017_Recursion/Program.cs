@@ -45,8 +45,7 @@ int SumRec(int n)
 Console.WriteLine(SumRec(15)); // 120
 Console.WriteLine();
 
-// Задача№3 Три шпиля и count количетво блинов. Башенка.
-
+// Задача№3 Три шпиля и count количетво блинов. Башенка.http://rebus1.com/index.php?item=tower
 void Towers(string with = "1", string on = "3", string some = "2", int count = 6)
 {
     if (count > 1) Towers(with, some, on, count - 1);
@@ -55,4 +54,3 @@ void Towers(string with = "1", string on = "3", string some = "2", int count = 6
 }
 Towers();
 Console.WriteLine();
-
