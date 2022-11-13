@@ -54,3 +54,17 @@ void Towers(string with = "1", string on = "3", string some = "2", int count = 6
 }
 Towers();
 Console.WriteLine();
+
+// Программа вывода рандомных чисел в консоль, в рандомных местах консоли
+Random r = new Random();
+Console.CursorVisible = false;
+while (true)
+{
+    Console.SetCursorPosition(
+        left: r.Next(Console.WindowWidth),
+        top: r.Next(Console.WindowHeight)
+        );
+    Console.Write(r.Next(10));
+    Thread.Sleep(1000);
+}
+// ctrl + C - остановка зацыкленного кода.
